@@ -10,8 +10,8 @@
     "plugin:import/warnings",
     "plugin:import/typescript",
     "plugin:prettier/recommended",
-    "prettier",
-    "prettier/react"
+    "prettier"
+    // "prettier/react"
   ],
   "parser": "@sourceType-eslint/parser",
   "parserOptions": {
