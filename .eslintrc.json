@@ -21,7 +21,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "@sourceType-eslint", "prettier"],
+  "plugins": ["react", "prettier"],
   "rules": {
     "require-jsdoc": "off",
     "@typescript-eslint/ban-es-comment": "off",
