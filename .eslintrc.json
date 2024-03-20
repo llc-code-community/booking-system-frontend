@@ -23,8 +23,10 @@
   },
   "plugins": ["react"],
   "rules": {
+    "react/react-in-jsx-scope": "off",
     "require-jsdoc": "off",
     "@typescript-eslint/ban-es-comment": "off",
-    "@typescript-eslint/ban-types": "off"
+    "@typescript-eslint/ban-types": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
   }
 }
