@@ -8,9 +8,9 @@
     "plugin:react/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:import/typescript",
-    "plugin:prettier/recommended",
-    "prettier"
+    "plugin:import/typescript"
+    // "plugin:prettier/recommended",
+    // "prettier"
     // "prettier/react"
   ],
   "parser": "@typescript-eslint/parser",
@@ -21,10 +21,10 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "prettier"],
+  "plugins": ["react"],
   "rules": {
     "require-jsdoc": "off",
     "@typescript-eslint/ban-es-comment": "off",
-    "@typescript-eslint/ban-types": "error"
+    "@typescript-eslint/ban-types": "off"
   }
 }

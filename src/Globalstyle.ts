@@ -1,17 +1,18 @@
-import { createGlobalStyle } from 'styled-components';
 import 'modern-normalize';
-import HelveticaNowDisplayRegularwoff2 from './assets/fonts/HelveticaNowDisplay-Regular.woff2';
-import HelveticaNowDisplayRegularwoff from './assets/fonts/HelveticaNowDisplay-Regular.woff';
-import HelveticaNowDisplayRegularttf from './assets/fonts/HelveticaNowDisplay-Regular.ttf';
-import HelveticaNowDisplayMediumwoff2 from './assets/fonts/HelveticaNowDisplay-Medium.woff2';
-import HelveticaNowDisplayMediumwoff from './assets/fonts/HelveticaNowDisplay-Medium.woff';
-import HelveticaNowDisplayMediumttf from './assets/fonts/HelveticaNowDisplay-Medium.ttf';
-import HelveticaNowDisplayLightwoff2 from './assets/fonts/HelveticaNowDisplay-Light.woff2';
-import HelveticaNowDisplayLightwoff from './assets/fonts/HelveticaNowDisplay-Light.woff';
-import HelveticaNowDisplayLightttf from './assets/fonts/HelveticaNowDisplay-Light.ttf';
-import HelveticaNowDisplayBoldwoff2 from './assets/fonts/HelveticaNowDisplay-Bold.woff2';
-import HelveticaNowDisplayBoldwoff from './assets/fonts/HelveticaNowDisplay-Bold.woff';
+import { createGlobalStyle } from 'styled-components';
+
 import HelveticaNowDisplayBoldttf from './assets/fonts/HelveticaNowDisplay-Bold.ttf';
+import HelveticaNowDisplayBoldwoff from './assets/fonts/HelveticaNowDisplay-Bold.woff';
+import HelveticaNowDisplayBoldwoff2 from './assets/fonts/HelveticaNowDisplay-Bold.woff2';
+import HelveticaNowDisplayLightttf from './assets/fonts/HelveticaNowDisplay-Light.ttf';
+import HelveticaNowDisplayLightwoff from './assets/fonts/HelveticaNowDisplay-Light.woff';
+import HelveticaNowDisplayLightwoff2 from './assets/fonts/HelveticaNowDisplay-Light.woff2';
+import HelveticaNowDisplayMediumttf from './assets/fonts/HelveticaNowDisplay-Medium.ttf';
+import HelveticaNowDisplayMediumwoff from './assets/fonts/HelveticaNowDisplay-Medium.woff';
+import HelveticaNowDisplayMediumwoff2 from './assets/fonts/HelveticaNowDisplay-Medium.woff2';
+import HelveticaNowDisplayRegularttf from './assets/fonts/HelveticaNowDisplay-Regular.ttf';
+import HelveticaNowDisplayRegularwoff from './assets/fonts/HelveticaNowDisplay-Regular.woff';
+import HelveticaNowDisplayRegularwoff2 from './assets/fonts/HelveticaNowDisplay-Regular.woff2';
 
 export function fontFace(
   name: string,
@@ -19,7 +20,7 @@ export function fontFace(
   srcwoff: string,
   srcttf: string,
   fontWeight = 400,
-  fontStyle = 'normal',
+  fontStyle = 'normal'
 ) {
   return `
       @font-face{
@@ -48,8 +49,8 @@ export const GlobalStyle = createGlobalStyle`
 	body {
 		font-family: 'Helvetica Now Display Regular';
 		margin: 0;
-		background-color: ${(props) => props.theme.PrimaryWhite};
-		color: ${(props) => props.theme.PrimaryColorBlack};
+		background-color: ${props => props.theme.PrimaryWhite};
+		color: ${props => props.theme.PrimaryColorBlack};
 	}
 
 	h1,
