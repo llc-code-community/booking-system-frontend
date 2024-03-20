@@ -25,6 +25,6 @@
   "rules": {
     "require-jsdoc": "off",
     "@typescript-eslint/ban-es-comment": "off",
-    "@typescript-eslint/ban-types": "on"
+    "@typescript-eslint/ban-types": "error"
   }
 }
