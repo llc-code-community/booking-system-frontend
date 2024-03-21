@@ -5,22 +5,11 @@
     <link rel="icon" type="image/svg+xml" href="./vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React + TS</title>
-    <script>
-      function processPreload() {
-        const fetchOpts = {};
-        if (script.integrity) fetchOpts.integrity = script.integrity;
-        if (script.referrerpolicy) fetchOpts.referrerPolicy = script.referrerpolicy;
-        if (script.crossorigin === 'use-credentials') fetchOpts.credentials = 'include';
-        else if (script.crossorigin === 'anonymous') fetchOpts.credentials = 'omit';
-        else fetchOpts.credentials = 'same-origin';
-        fetch(link.href, fetchOpts).then(res => res.ok && res.arrayBuffer());
-      }
-      for (const link of document.querySelectorAll('link[rel=modulepreload]')) processPreload(link);
-    </script>
-    <script type="module" crossorigin src="./assets/index-ZXwtqHCq.js"></script>
+    
     <link rel="stylesheet" crossorigin href="./assets/index-xcrsfclc.css">
   </head>
   <body>
     <div id="root"></div>
+    <script  src="./assets/index-ZXwtqHCq.js"></script>
   </body>
 </html>
