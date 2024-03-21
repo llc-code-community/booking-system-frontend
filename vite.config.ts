@@ -3,14 +3,6 @@ import { resolve } from 'path';
 import { defineConfig } from 'vite';
 import tsconfigPaths from 'vite-tsconfig-paths';
 
-type ResolveModulePreloadDependenciesFn = (
-  url: string,
-  deps: string[],
-  context: {
-    importer: string;
-  }
-) => string[];
-
 // const jsToBottomNoModule = () => {
 //   return {
 //     name: 'no-attribute',
