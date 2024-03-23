@@ -2,6 +2,7 @@
   "name": "booking-system",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://llc-code-community.github.io/booking-system-frontend/",
   "type": "module",
   "scripts": {
     "dev": "vite",
