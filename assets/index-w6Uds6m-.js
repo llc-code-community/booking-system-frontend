@@ -88,6 +88,7 @@ Error generating stack: `+o.message+`
 
 	body {
 		font-family: 'Helvetica Now Display Regular';
+		font-size: 16px;
 		margin: 0;
 		background-color: ${e=>e.theme.PrimaryWhite};
 		color: ${e=>e.theme.PrimaryColorBlack};
@@ -137,7 +138,7 @@ Error generating stack: `+o.message+`
 		margin: 0;
 		padding: 0;
 	}
-`,K0={PrimaryWhite:"#FFFFFF",SecondaryGray:"#F7F7F7",PrimaryColorBlack:"#242424",SecondaryColorGray:"rgba(36, 36, 36, 0.3)",TritiaryColorBlue:"#2445B8",FouriraryColorRed:"rgba(255, 51, 51, 1)",PrimaryBorderGray:"rgba(36, 36, 36, 0.25)",SecondaryLightRed:"DC2626",PrimaryButtonBlue:"#2445B8",SecondaryButtonBlue:"#E9EFFF",TritiaryButtonRed:"#DC2626",PrimatyFillBlack:"#242424",SecondaryFillGray:"rgba(63, 45, 59, 0.10)",TritiaryFillRed:"rgba(255, 51, 51, 1)",SecondaryDarkPurple:"#4117AD",cubicBezier:"cubic-bezier(0.4, 0, 0.2, 1)"},Y0={HOME:"/"},G0=()=>pe.jsx(pe.Fragment,{children:pe.jsx(R.Suspense,{fallback:null,children:pe.jsx(kv,{})})}),X0=R.lazy(()=>Tv(()=>import("./MainPage--5OQXQfL.js"),__vite__mapDeps([]))),Z0=()=>pe.jsxs(R0,{theme:K0,children:[pe.jsx(Cv,{children:pe.jsx(su,{path:Y0.HOME,element:pe.jsx(G0,{}),children:pe.jsx(su,{index:!0,element:pe.jsx(X0,{})})})}),pe.jsx(Q0,{})]});di.createRoot(document.getElementById("root")).render(pe.jsx(oe.StrictMode,{children:pe.jsx(Pv,{basename:"/booking-system-frontend/",children:pe.jsx(jm,{children:pe.jsx(Z0,{})})})}));export{pe as j};
+`,K0={PrimaryWhite:"#FFFFFF",SecondaryGray:"#F7F7F7",PrimaryColorBlack:"#242424",SecondaryColorGray:"rgba(36, 36, 36, 0.3)",TritiaryColorBlue:"#2445B8",FouriraryColorRed:"rgba(255, 51, 51, 1)",PrimaryBorderGray:"rgba(36, 36, 36, 0.25)",SecondaryLightRed:"DC2626",PrimaryButtonBlue:"#2445B8",SecondaryButtonBlue:"#E9EFFF",TritiaryButtonRed:"#DC2626",PrimatyFillBlack:"#242424",SecondaryFillGray:"rgba(63, 45, 59, 0.10)",TritiaryFillRed:"rgba(255, 51, 51, 1)",SecondaryDarkPurple:"#4117AD",cubicBezier:"cubic-bezier(0.4, 0, 0.2, 1)"},Y0={HOME:"/"},G0=()=>pe.jsx(pe.Fragment,{children:pe.jsx(R.Suspense,{fallback:null,children:pe.jsx(kv,{})})}),X0=R.lazy(()=>Tv(()=>import("./MainPage-idj0k0qK.js"),__vite__mapDeps([]))),Z0=()=>pe.jsxs(R0,{theme:K0,children:[pe.jsx(Cv,{children:pe.jsx(su,{path:Y0.HOME,element:pe.jsx(G0,{}),children:pe.jsx(su,{index:!0,element:pe.jsx(X0,{})})})}),pe.jsx(Q0,{})]});di.createRoot(document.getElementById("root")).render(pe.jsx(oe.StrictMode,{children:pe.jsx(Pv,{children:pe.jsx(jm,{children:pe.jsx(Z0,{})})})}));export{pe as j};
 function __vite__mapDeps(indexes) {
   if (!__vite__mapDeps.viteFileDeps) {
     __vite__mapDeps.viteFileDeps = []
