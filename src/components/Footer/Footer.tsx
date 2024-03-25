@@ -1,72 +1,35 @@
+import {FooterContainer, FooterLogo, FooterYear, Connect, ConnectName, ConnectList, InformationName, InformationList} from './Footer.styled'
+
 export const Footer = () => {
-  return <footer>
+  return <FooterContainer>
   <div>
-      <p>Logo</p>
-      <p>@2024 Logo</p>
+      <FooterLogo>Logo</FooterLogo>
+      <FooterYear>@2024 Logo</FooterYear>
   </div>
-  <div>
-      <p>Connect</p>
+  <Connect>
+      <ConnectName>Connect</ConnectName>
       <ul>
-          <li>
+          <ConnectList>
               <a href="/">Instagram</a>
-          </li>
-          <li>
+          </ConnectList>
+          <ConnectList>
               <a href="/">Linkedln</a>
-          </li>
-          <li>
+          </ConnectList>
+          <ConnectList>
               <a href="/">Facebook</a>
-          </li>
+          </ConnectList>
       </ul>
-  </div>
+  </Connect>
   <div>
-      <p>Information</p>
+      <InformationName>Information</InformationName>
       <ul>
-          <li>
+          <InformationList>
               <a href="/">How it works</a>
-          </li>
-          <li>
+          </InformationList>
+          <InformationList>
               <a href="/">Support</a>
-          </li>
+          </InformationList>
       </ul>
   </div>
-</footer>
+</FooterContainer>
 };
-
-
-// import css from './Footer.module.css'
-
-// const Footer = () => {
-//     return <footer className={css.footer}>
-//         <div>
-//             <p className={css.footer_logo}>Logo</p>
-//             <p className={css.footer_year}>@2024 Logo</p>
-//         </div>
-//         <div className={css.connect}>
-//             <p className={css.connect_name}>Connect</p>
-//             <ul className={css.connect_list}>
-//                 <li>
-//                     <a href="/">Instagram</a>
-//                 </li>
-//                 <li>
-//                     <a href="/">Linkedln</a>
-//                 </li>
-//                 <li>
-//                     <a href="/">Facebook</a>
-//                 </li>
-//             </ul>
-//         </div>
-//         <div className={css.information}>
-//             <p className={css.information_name}>Information</p>
-//             <ul className={css.information_list}>
-//                 <li>
-//                     <a href="/">How it works</a>
-//                 </li>
-//                 <li>
-//                     <a href="/">Support</a>
-//                 </li>
-//             </ul>
-//         </div>
-//     </footer>
-// }
-
-// export default Footer
