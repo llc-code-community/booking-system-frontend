@@ -5,15 +5,6 @@ import { SearchBar } from '@/components';
 
 import SearchSvg from '@/assets/svg/Search.svg';
 
-// const items = [
-//   { city: 'Dubai', country: 'Dubai, United Arab Amirates' },
-//   { city: 'Istanbul', country: 'Istanbul, Turkiye' },
-//   { city: 'Vilnius', country: '' },
-//   { city: 'Vilnius', country: 'Vilnius, Lithuania' },
-//   { city: 'Paris', country: 'France' },
-//   { city: 'Alanya', country: 'Alanya Region, Turkiye' },
-//   { city: 'Berlin', country: 'Germany' },
-// ];
 
 export const HomePage = () => {
   return (
