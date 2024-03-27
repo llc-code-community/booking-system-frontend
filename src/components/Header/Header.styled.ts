@@ -9,7 +9,7 @@ export const HeaderContainer = styled.header`
     color: #000;
 `;
 
-export const Logo = styled.div`
+export const Logo = styled.a`
     display: flex;
     align-items: center;
     gap: 8px;
@@ -35,14 +35,14 @@ export const LogoBeta = styled.p `
 
     border-radius: 4px;
     color: #fff;
-    background: var(--Blue, #2445B8);
+    background: #2445B8;
 `
 
-export const NavbarList = styled.p `
+export const NavbarList = styled.button `
     color: #2445B8;
     font-family: "Helvetica Now Display";
-    font-size: 16px;
     border-radius: 36px;
+    border: none;
     background: #E9EFFF;
 
     display: flex;
@@ -52,22 +52,25 @@ export const NavbarList = styled.p `
     gap: 10px;
 `
 
-export const NavbarFavorites = styled.div `
+export const NavbarFavorites = styled.button `
     display: flex;
     align-items: center;
     gap: 8px;
     color: #000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-size: 16px;
+    border: none;
+    background: transparent;
 `
 
-export const NavbarName = styled.div `
+export const NavbarName = styled.button `
     display: flex;
     height: 60px;
     padding: 8px 12px;
     align-items: center;
     gap: 12px;
-
+    
+    border: none;
     border-radius: 36px;
     background: rgba(36, 36, 36, 0.03);
 `

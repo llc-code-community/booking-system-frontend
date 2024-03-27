@@ -4,7 +4,7 @@ import downIcon from '../../assets/icons/downIcon.svg'
 
 export const Header = () => {
   return <HeaderContainer>
-  <Logo>
+  <Logo href="/">
       <LogoText>Logo</LogoText>
       <LogoBeta>Beta</LogoBeta>
   </Logo>
