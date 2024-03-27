@@ -8,14 +8,15 @@ import { routes } from '../routes';
 
 import { Layout } from './Layout';
 
-const MainPage = lazy(() => import('../pages/MainPage'));
+// const MainPage = lazy(() => import('../pages/MainPage'));
+const FavoritesPage = lazy(() => import('../pages/FavoritesPage'));
 
 export const App = () => {
   return (
     <ThemeProvider theme={lightTheme}>
       <Routes>
         <Route path={routes.HOME} element={<Layout />}>
-          <Route index element={<MainPage />} />
+          <Route index element={<FavoritesPage />} />
         </Route>
       </Routes>
       <GlobalStyle />
