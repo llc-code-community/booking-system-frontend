@@ -31,3 +31,8 @@ export const DateBlock = styled.div`
   display: flex;
   gap: 8px;
 `;
+export const ButtonInner = styled.button`
+  border: none;
+  background-color:transparent;
+`;
+

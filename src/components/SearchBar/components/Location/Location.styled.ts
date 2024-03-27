@@ -1,27 +1,30 @@
-import { FC, PropsWithChildren } from 'react';
-import { Window } from './Dropdown.styled';
-import styled from 'styled-components';
+import styled from "styled-components";
 
-interface DropdownProps extends PropsWithChildren{
-  isOpen: boolean
-}
-
-export const List = styled.li`
+export const List = styled.ul`
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
 `;
 export const Block = styled.li`
   font-size: 14px;
   font-weight: 400;
   display: flex;
   gap: 12px;
+  padding-block:4px;
+  padding-inline:24px;
+  cursor: pointer;
+  transition: background-color .1s linear;
+
+  &:hover {
+    background-color:#F4F4F4;
+  }
 `;
 
 export const Title = styled.h4`
   font-size: 14px;
   margin-bottom: 12px;
   font-weight: 400;
+  padding-inline:24px;
 `;
 
 export const Info = styled.div`
@@ -38,12 +41,3 @@ export const Country = styled.span`
   font-weight: 400;
   color: #babbc7;
 `;
-
-export const Dropdown: FC<DropdownProps> = ({ isOpen, children }) => {
-
-  return (
-    <Window isOpen={isOpen} onClick={e => e.stopPropagation()}>
-      {children}
-    </Window>
-  );
-};
