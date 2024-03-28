@@ -49,6 +49,8 @@ export const GlobalStyle = createGlobalStyle`
 	body {
 		font-family: 'Helvetica Now Display Regular';
 		font-size: 16px;
+ 		line-height: normal;
+		letter-spacing: normal;
 		margin: 0;
 		background-color: ${props => props.theme.PrimaryWhite};
 		color: ${props => props.theme.PrimaryColorBlack};
