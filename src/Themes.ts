@@ -6,6 +6,7 @@ export const lightTheme = {
   //text color
   PrimaryColorBlack: '#242424',
   SecondaryColorGray: 'rgba(36, 36, 36, 0.3)',
+  ColorGray: 'rgba(24, 24, 24, 0.5)',
   TritiaryColorBlue: '#2445B8',
   FouriraryColorRed: 'rgba(255, 51, 51, 1)',
 
